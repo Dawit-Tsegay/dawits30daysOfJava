@@ -13,6 +13,13 @@ public class MySweetProgram {
 		int y = 5;
 		
 		System.out.println(y);
+		int i= 0;
+		do {
+			System.out.println("i is:" + i);
+			i++;
+		}
+		while(i<10);
+		x.close();
 	}
 
 }
